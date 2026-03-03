@@ -3,7 +3,7 @@ package com.record;
 public record RecordDemo(String name, int age) {
 
     //Defining static field in record class
-    public static final String DEFAULT_PERSON_NAME = "Sandeep";
+    public static final String DEFAULT_PERSON_NAME = "Sandeep Dash";
 
     //Overriding the record class constructor
     public RecordDemo(String name, int age) {
